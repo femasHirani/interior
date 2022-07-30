@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 95vw;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.header_logo{
+    width: 150px;
+}
+
+.header_nav{
+    width: 70%;
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_list{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.nav_item{
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav_item:last-of-type{
+    margin-right: 0;
+}
+
+.navbar_contact{
+    width: max-content;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+
+.navbar_contact_icon{
+    width: 40px;
+    margin-right: 5px;
+}
+
+.navbar_contact_info h2{
+    font-size: 14px;
+}
+
+
+.index{
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.index_left{
+    width: 60%;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.index_title{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.learn_more{
+    width: 200px;
+    height: 55px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    background: unset;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.index_right{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.special_info_box{
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 150px;
+    background: #ffffff38;
+    position: absolute;
+}
+
+.box1{
+    top: 100px;
+    right: 0;
+    height: 130px;
+}
+
+.box2{
+    bottom: 50px;
+    left: -50px;
+}
+
+
+.icon{
+    width: 80px;
+    margin-top: 10px;
+}
+
+.special_info_para{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.decoration_line{
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 70px;
+    position: absolute;
+}
+.decoration_circle{
+    background: rgb(255, 255, 255);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.my_line1{
+    transform: rotateZ(90deg);
+    top: 164px;
+    right: 30px;
+}
+
+.circle1{
+    top: 190px;
+    right: 55px;
+}
+
+.line2{
+    bottom: 80px;
+    left: 240px;
+}
+
+.circle2{
+    bottom: 72px;
+    left: 300px;
+}
+
+.index_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
